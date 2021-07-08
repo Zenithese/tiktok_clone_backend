@@ -1,0 +1,2 @@
+class RemoveTypeColumnAndAddKindColumn < ApplicationRecord
+end
