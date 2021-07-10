@@ -2,7 +2,7 @@ class Api::PostsController < ApplicationController
     skip_before_action :verify_authenticity_token
 
     def index
-        @posts = Post.all
+        @posts = Post.all.includes(:user)
     end
 
     def create

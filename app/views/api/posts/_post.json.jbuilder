@@ -1,1 +1,1 @@
-json.extract! post, :id, :video_uri, :description, :audio_name, :audio_uri, :kind
+json.extract! post, :id, :video_uri, :description, :audio_name, :audio_uri, :kind, :user
